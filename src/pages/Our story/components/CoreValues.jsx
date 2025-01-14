@@ -1,5 +1,5 @@
 import React from 'react'
-import TextOverImage from "../../../../components/TextOverImage"
+import TextOverImage from '../../../components/TextOverImage'
 
 const CoreValues = ()=> {
   return (

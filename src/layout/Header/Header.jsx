@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from '../../assets/images/LOGO_final 3.png'
 
 export const Header = () => {
   return (
     <div className="w-full h-[6rem] bg-[#FFFFFF] flex items-center px-[4rem] justify-between">
       <img
         className="h-[3rem] w-[3rem] rounded-full"
-        src="assets/images/LOGO_final 3.png"
+        src={logo}
         alt="LOGO_final 3"
       />
       <div className="flex w-[65%] justify-between font-semibold font-inter tracking-wide items-center">
@@ -18,7 +19,7 @@ export const Header = () => {
           <Link to="/picing">Pricing</Link>
           <div className='relative group'>
             <button className='flex items-center'>More &gt;</button>
-            <div className='absolute hidden group-hover:block group-focus:block bg-white shadow-md mt-2 rounded'>
+            <div className='absolute hidden group-hover:block group-focus:block bg-white shadow-md  rounded'>
               <Link
                 to='/contact-us'
                 className='block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100'
