@@ -1,7 +1,7 @@
 import React from "react";
 import { Layout } from "../../layout/Layout";
 import Hero from "./components/Hero";
-import Story from "./components/Story";
+import Story from "./components/Story"; // Ensure this path is correct and the component exists
 import CoreValues from "./components/CoreValues";
 
 
