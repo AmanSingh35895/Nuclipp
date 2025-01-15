@@ -10,7 +10,7 @@ export const Pricing = () => {
 
     return (
         <Layout>
-            <div className='w-full grid gap-y-[2.5rem] px-[1.5rem]'>
+            <div className='w-full grid gap-y-[2.5rem] px-[1.5rem] font-manrope'>
                 <Hero plan={plan} setPlan={setPlan}/>
                 <OurServices plan={plan}/>
                 <PreMonetizedChannels plan={plan}/>
