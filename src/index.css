@@ -15,6 +15,18 @@
   font-style: normal;
 }
 
+.font-manrope{
+  font-family: "Manrope", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.font-dm-sans{
+  font-family: "DM Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 .custom-shadow{
   box-shadow: 12px -12px -12px 13px #0000000F;
 }
