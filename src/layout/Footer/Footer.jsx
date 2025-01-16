@@ -1,4 +1,6 @@
 import React from 'react'
+import userIcon from '../../assets/images/vector.png'
+import logo from '../../assets/images/LOGO_final 3.png'
 
 export const Footer = () => {
   return (
@@ -6,7 +8,7 @@ export const Footer = () => {
       <div className='w-full flex justify-center'>
         <img
           className='h-[3rem] w-[3rem] rounded-full'
-          src='assets\images\LOGO_final 3.png'
+          src={logo}
           alt='LOGO_final 3'
         />
       </div>
@@ -16,7 +18,7 @@ export const Footer = () => {
           with personal AI manager
         </p>
         <div className='w-full flex items-center justify-center p-[1rem] gap-[1rem]'>
-        <img src='assets/images/vector.png' className='h-[17px] w-[17px] mr-[22%] z-1 absolute'/>
+        <img src={userIcon} className='h-[17px] w-[17px] mr-[22%] z-1 absolute'/>
           <input
             className='bg-transparent border-[1px] border-[#8E8E8E80] rounded-[50px] placeholder:text-center placeholder:text-[#071412B2] font-semibold font-plus-jakarta-sans w-[20%] py-[12px] px-[5px] z-0 pl-[4rem]'
             placeholder='Enter your email'

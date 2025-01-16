@@ -3,11 +3,17 @@ import TextOverImage from '../../../components/TextOverImage'
 
 const CoreValues = ()=> {
   return (
-    <div className='w-full flex justify-center h-[110vh] shadow-xl shadow-[#0000000F] rounded-[15px] font-inter'>
-        <TextOverImage text1={''} text2={''}/>
-        <TextOverImage text1={''} text2={''}/>
-        <TextOverImage text1={''} text2={''}/>
-        <TextOverImage text1={''} text2={''}/>
+    <div className="w-full min-h-screen shadow-xl shadow-[#0000000F] rounded-md font-inter p-12 ">
+     <div className='flex flex-col space-y-16 h-full p-6 '>
+      <div className='flex space-x-8 p-6 h-96 '>
+          <TextOverImage text1="Trust" text2="We build transparent and honest partnerships." />
+          <TextOverImage text1="Trust" text2="We build transparent and honest partnerships." />
+        </div>
+        <div className='flex space-x-8 p-6 h-96 '>
+          <TextOverImage text1="Trust" text2="We build transparent and honest partnerships." />
+          <TextOverImage text1="Trust" text2="We build transparent and honest partnerships." />
+        </div>
+     </div>
     </div>
   )
 }
