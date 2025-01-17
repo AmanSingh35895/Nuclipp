@@ -8,7 +8,7 @@ export const FAQ = () => {
     return (
         <>
           <Layout>
-            <div className='w-full grid gap-y-[2.5rem] px-[1.5rem]'>
+            <div className='w-full grid gap-y-[2.5rem] px-[1.5rem] font-inter'>
               <Hero />
               <FaqQA />
               <Cta />

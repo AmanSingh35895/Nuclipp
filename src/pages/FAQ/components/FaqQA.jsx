@@ -29,7 +29,7 @@ const QAComponent = ({ title, data }) => {
                         </div>
 
 
-                        <p className="text-[#667085] mt-2 w-full">{activeIndexes.includes(index) ? item.answer : ''}</p>
+                        <p className="text-[#667085] text-justify mt-2 w-full">{activeIndexes.includes(index) ? item.answer : ''}</p>
 
                     </div>
                 ))}
