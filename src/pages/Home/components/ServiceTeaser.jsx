@@ -6,7 +6,7 @@ const ServiceTeaser = () => {
     <div className='w-full min-h-screen flex  shadow-xl shadow-[#0000000F] rounded-[15px] px-16 py-12  '>
       <div className='w-[50%] h-full flex flex-col space-y-8 px-4 py-2 justify-center items-center'>
         <div className='flex space-x-6 w-full h-full'>
-          <TextOverImage text1={"Pre-Monetized Channels"} text2={"Start earning from day one."} />
+          <TextOverImage text1={"Pre-Monetized Channels"} text2={"Start earning from day one."} image = {"https://tse3.mm.bing.net/th?id=OIP.U_VJuupQohwnzXcKMztqWgHaEo&rs=1&pid=ImgDetMain"} />
           <TextOverImage text1={"YouTube Channel Management:"} text2={"Simplified growth strategies for exponential results."}/>
         </div>
         <div className='flex space-x-6 w-full h-full'>
