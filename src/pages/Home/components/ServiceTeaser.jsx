@@ -1,5 +1,6 @@
 import React from 'react';
 import TextOverImage from "../../../components/TextOverImage"
+import { Button } from '../../../components/Button';
 
 const ServiceTeaser = () => {
   return (
@@ -17,7 +18,7 @@ const ServiceTeaser = () => {
       <div className='w-[50%] h-full flex flex-col space-y-8 justify-center px-32 '>
         <p className='font-inter font-semibold text-6xl tracking-tighter  text-justify'>Your Partner in Success</p>
         <p className='text-[#0F172A] font-normal max-w-96 text-3xl tracking-wider my-2'>Explore our offerings that cater to your specific needs!</p>
-        <button className='w-fit px-4 py-2 border-[1.5px] border-[#FF7171] bg-[#FF7171]  rounded-[5px] font-inter font-semibold text-[#F8FAFC] text-xl '>See How We Can Help You</button>
+        <Button text={"See How We Can Help You"}/>
       </div>
     </div>
   );
