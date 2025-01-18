@@ -1,6 +1,6 @@
 import React from 'react';
 import Switch from 'react-switch';
-
+import arrow from '../../../assets/images/arrow.png'
 export const Hero = ({plan,setPlan}) => {
 
   const handleChange = (checked)=>{
@@ -31,7 +31,7 @@ export const Hero = ({plan,setPlan}) => {
         <span>Pay Quaterly</span>
         <span className='text-[#FF7171] flex'>
           <img 
-            src='assets\images\arrow.png'
+            src={arrow}
             alt='arrow'
             className='h-[4rem] w-[5rem] '
           />

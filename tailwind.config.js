@@ -9,7 +9,11 @@ export default {
       backgroundImage: {
         'serviceTeaser1': "url('/assets/images/LOGO_final 3.png')",
         'footer-texture': "url('/img/footer-texture.png')",
-      }
+      },
+      fontFamily: {
+        dmSans: ['DM Sans', 'sans-serif'],
+        manrope: ['Manrope', 'sans-serif'],
+      },
     },
   },
   plugins: [],

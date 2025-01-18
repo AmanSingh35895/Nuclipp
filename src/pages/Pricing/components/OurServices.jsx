@@ -3,17 +3,17 @@ import Checkmark from '../../../components/Checkmark'
 
 export const OurServices = ({ plan }) => {
     return (
-        <div className='flex flex-col items-center gap-y-1 justify-start pt-20 h-[120vh] font-dm-sans w-full'>
+        <div className='flex flex-col items-center  gap-y-8  justify-start  font-dm-sans w-full'>
             {/* title */}
-            <div className='text-[3rem] text-[#191D23] font-bold'>
+            <div className='text-[3rem] text-[#191D23] font-bold '>
                 Organic
-                <span className='text-[#FF7171] '>YouTube</span>
+                <span className='text-[#FF7171] '> YouTube </span>
                 Automation Plan
             </div>
             {/* left box */}
-            <div className='flex w-full gap-x-2 justify-center pt-2'>
+            <div className='flex w-full justify-between  px-48'>
 
-                <div className='w-[38%] h-[80vh] rounded-[12px] text-[#191D23] flex flex-col items-start justify-start gap-y-2 py-10 px-4 duration-[0.5s]'>
+                <div className=' flex-shrink-0 rounded-[12px]   text-[#191D23] flex flex-col items-start justify-start gap-y-2 py-10 px-4 duration-[0.5s]'>
 
                     <div className='text-[1.5rem] font-bold'>4-5 Minute Content</div>
 
@@ -46,7 +46,7 @@ export const OurServices = ({ plan }) => {
                     </div>
                 </div>
                 {/* right box */}
-                <div className={`w-[38%] ${plan === 'monthly' ? 'bg-[#FF7171]' : 'bg-[#FFBB00]'} h-[80vh] rounded-[12px] shadow-lg shadow-[#CCD9FF] text-white flex flex-col items-start justify-start gap-y-2 py-10 px-4 duration-[0.5s]`}>
+                <div className={`p-4 flex-shrink-0 ${plan === 'monthly' ? 'bg-[#FF7171]' : 'bg-[#FFBB00]'}  rounded-[12px] shadow-lg shadow-[#CCD9FF] text-white flex flex-col items-start justify-start gap-y-2 pt-10 pb-16 px-4 duration-[0.5s]`}>
 
                     <div className='text-[1.5rem] font-bold'>
                         8-10 Minute Content

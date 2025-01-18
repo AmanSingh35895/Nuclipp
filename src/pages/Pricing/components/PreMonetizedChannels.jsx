@@ -24,8 +24,8 @@ const PreMonetizedChannel = ({ radius, bgColor, text1, cost, text2, text3 }) => 
 // main component
 export const PreMonetizedChannels = ({ plan }) => {
     return (
-        <div className='flex flex-col items-center gap-y-1 justify-start h-[70vh] font-dm-sans'>
-            <div className='text-[3rem] text-[#191D23] font-bold'>Buy <span className='text-[#FFBB00] '>Pre-Monetized</span> Channels</div>
+        <div className='flex flex-col items-center gap-y-1 justify-start font-dm-sans pt-24'>
+            <div className='text-4xl text-[#191D23] font-bold'>Buy <span className='text-[#FFBB00] '>Pre-Monetized</span> Channels</div>
             <div className='flex w-full gap-x-2 justify-evenly pt-2 px-10'>
                 <PreMonetizedChannel bgColor={`${plan === 'monthly' ? 'bg-[#FF7171B2]/70' : 'bg-[#FFBB00]/70'}`} radius={"rounded-[4px]"} text1={"Starter"}
                     cost={250} text2={"3,000 Subscribers"} text3={"Affordable option for new creators."}
