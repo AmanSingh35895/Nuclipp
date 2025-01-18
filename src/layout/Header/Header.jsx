@@ -16,7 +16,7 @@ export const Header = () => {
           <Link to="/our_story">Our Story</Link>
           <Link to="/services">Services</Link>
           <Link to="/results">Results & Success</Link>
-          <Link to="/picing">Pricing</Link>
+          <Link to="/pricing">Pricing</Link>
           <div className='relative group'>
             <button className='flex items-center'>More &gt;</button>
             <div className='absolute hidden group-hover:block group-focus:block bg-white shadow-md  rounded'>
