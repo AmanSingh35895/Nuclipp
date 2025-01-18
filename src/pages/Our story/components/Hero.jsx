@@ -16,7 +16,7 @@ const Hero = () => {
         <button className='w-[40%] border-[1.5px] border-[#FF7171] py-[14px] px-[20px] rounded-[5px] font-inter font-semibold hover:bg-[#FF7171] hover:text-[#F8FAFC] duration-500 my-2'>Explore Our Journey</button>
       </div>
       <div className='w-[50%]  border-2 border-red-300 px-24 py-12' >
-         <img src={video2} className="w-full h-autoo"/>
+         <img src={video2} className="w-full h-auto"/>
       </div>
     </div>
   );

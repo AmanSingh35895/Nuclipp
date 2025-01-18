@@ -10,7 +10,7 @@ const TextOverImage = ({text1, text2, image = logo })=> {
         className="w-full h-full object-cover"
       />
       <div className="absolute inset-0 flex flex-col justify-end items-center bg-gradient-to-t from-black to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-        <div className="p-4 text-white space-y-2">
+        <div className="p-4 text-white space-y-2  w-full">
           <h3 className="text-xl font-bold">{text1}</h3>
           <p className="text-sm">{text2}</p>
         </div>
